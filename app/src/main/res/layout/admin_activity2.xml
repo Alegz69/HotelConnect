@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextEmployeeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Name"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextEmployeePosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Position"
+        android:layout_below="@id/editTextEmployeeName"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextWorkingHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Working Hours"
+        android:layout_below="@id/editTextEmployeePosition"
+        android:layout_marginBottom="16dp"/>
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="384dp"
+        android:layout_height="307dp"
+        android:layout_below="@id/editTextWorkingHours"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonAddEmployee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendarView"
+        android:layout_marginTop="26dp"
+        android:text="Add Employee" />
+
+</RelativeLayout>

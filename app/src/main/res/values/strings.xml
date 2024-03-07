@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PROJECT SDA</string>
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Open drawer</string>
+    <string name="welcome">Welcome!</string>
+
+</resources>

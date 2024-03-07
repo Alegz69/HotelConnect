@@ -1,0 +1,70 @@
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="239dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Would you like to book a room?"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="239dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="50dp"
+                    android:text="How many rooms would you like to book? \nWe have ten available rooms."
+                    android:textAlignment="center"/>
+
+
+                <EditText
+                    android:id="@+id/editTextNumberSigned2"
+                    android:layout_width="123dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_marginLeft="130dp"
+                    android:inputType="numberSigned"
+                    />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="239dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="10dp"
+                    android:text="For how many people? \nThere can't be more than two people per room."
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:id="@+id/editTextNumberSigned3"
+                    android:layout_width="123dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_marginLeft="130dp"
+                    android:inputType="numberSigned"
+                    />
+
+                <Button
+                    android:id="@+id/book"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Book" />
+        </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
